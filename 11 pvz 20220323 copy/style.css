@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 0 0 200px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(117, 117, 117, 0.3);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+    margin: 10px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card .text {
+  padding: 0 20px 20px;
+} 
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background: blue;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background: greenyellow;
+  color: red;
+}
