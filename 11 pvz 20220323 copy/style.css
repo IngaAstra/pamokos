@@ -36,7 +36,8 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+/* testas */
+.card:hover {
   background: greenyellow;
   color: red;
 }
